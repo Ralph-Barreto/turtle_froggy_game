@@ -5,7 +5,7 @@ class Player(Turtle):
     def __init__(self):
         super().__init__()
         self.shape("turtle")
-        self.goto( x=0 , y=-250 )
+        self.goto( x=0 , y=-280 )
         self.penup()
         self.color("green")
         self.speed("fastest")
